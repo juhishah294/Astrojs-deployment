@@ -16,8 +16,8 @@ COPY . .
 # Build the Astro.js project
 RUN npm run build
 
-# Expose port 3000 to the outside world
-EXPOSE 3000
+# Expose port 4321 to the outside world
+EXPOSE 4321
 
 # Command to run the application
 CMD ["npm", "start"]
